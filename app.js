@@ -62,6 +62,8 @@ function initTyping() {
     const char = typing.querySelectorAll('span');
     const typedChar = input.value.charAt(charIndex);
 
+    console.log(typedChar);
+
     if (charIndex < char.length && timeLeft > 0) {
 
         if (!isTyping) {
